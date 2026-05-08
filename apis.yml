@@ -35,6 +35,8 @@ apis:
       - PaaS
       - Web Apps
     properties:
+      - url: openapi/microsoft-azure-app-service-openapi.yml
+        type: OpenAPI
       - type: Documentation
         url: https://learn.microsoft.com/en-us/rest/api/appservice/
       - type: APIReference
