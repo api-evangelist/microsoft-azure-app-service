@@ -61,6 +61,8 @@ common:
   url: https://status.azure.com/
 - type: GitHubOrganization
   url: https://github.com/Azure
+- type: LLMsTxt
+  url: https://portal.azure.com/llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
