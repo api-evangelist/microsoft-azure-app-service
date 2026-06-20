@@ -6,7 +6,7 @@ description: >-
   load balancing, and includes integrated authentication, continuous deployment, custom domain, and SSL certificate
   management.
 type: Index
-image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
   - App Service
   - Hosting
@@ -24,7 +24,7 @@ apis:
       The Azure App Service REST API enables programmatic management of web apps, app service plans, deployment slots,
       custom domains, SSL certificates, and application settings. It supports continuous deployment, auto-scaling,
       authentication configuration, and hybrid connections through Azure Resource Manager endpoints.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://learn.microsoft.com/en-us/rest/api/appservice/
     baseURL: https://management.azure.com/
     tags:
