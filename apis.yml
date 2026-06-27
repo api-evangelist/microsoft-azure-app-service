@@ -41,7 +41,7 @@ apis:
         url: https://learn.microsoft.com/en-us/rest/api/appservice/operation-groups
       - type: Authentication
         url: https://learn.microsoft.com/en-us/azure/app-service/overview-authentication-authorization
-      - type: SDK
+      - type: SDKs
         url: https://github.com/Azure/azure-sdk-for-python/tree/main/sdk/appservice
 common:
   - type: Portal
@@ -60,7 +60,7 @@ common:
     url: https://status.azure.com/
   - type: GitHubOrganization
     url: https://github.com/Azure
-  - type: LLMsTxt
+  - type: LlmsText
     url: https://portal.azure.com/llms.txt
 maintainers:
   - FN: Kin Lane
