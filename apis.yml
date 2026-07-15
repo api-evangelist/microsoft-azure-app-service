@@ -44,6 +44,8 @@ apis:
       - type: SDKs
         url: https://github.com/Azure/azure-sdk-for-python/tree/main/sdk/appservice
 common:
+  - type: AgenticAccess
+    url: agentic-access/microsoft-azure-app-service-agentic-access.yml
   - type: DomainSecurity
     url: security/microsoft-azure-app-service-domain-security.yml
   - type: Authentication
