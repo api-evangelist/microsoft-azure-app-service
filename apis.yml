@@ -6,7 +6,20 @@ description: >-
   load balancing, and includes integrated authentication, continuous deployment, custom domain, and SSL certificate
   management.
 type: Index
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+accessModel:
+  pricing: freemium
+  onboarding: self-serve
+  trial: false
+  try_now: true
+  public: false
+  label: Freemium · Self-serve signup
+  confidence: high
+  source:
+  - plans
+  - authentication
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/microsoft-azure-app-service.png
 tags:
   - App Service
   - Hosting
@@ -18,31 +31,44 @@ created: '2026-03-13'
 modified: '2026-05-19'
 specificationVersion: '0.19'
 apis:
-  - aid: microsoft-azure-app-service:azure-app-service-api
-    name: Azure App Service API
-    description: >-
-      The Azure App Service REST API enables programmatic management of web apps, app service plans, deployment slots,
-      custom domains, SSL certificates, and application settings. It supports continuous deployment, auto-scaling,
-      authentication configuration, and hybrid connections through Azure Resource Manager endpoints.
-    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/rest/api/appservice/
-    baseURL: https://management.azure.com/
-    tags:
-      - App Service
-      - Hosting
-      - PaaS
-      - Web Apps
-    properties:
-      - url: openapi/microsoft-azure-app-service-openapi.yml
-        type: OpenAPI
-      - type: Documentation
-        url: https://learn.microsoft.com/en-us/rest/api/appservice/
-      - type: APIReference
-        url: https://learn.microsoft.com/en-us/rest/api/appservice/operation-groups
-      - type: Authentication
-        url: https://learn.microsoft.com/en-us/azure/app-service/overview-authentication-authorization
-      - type: SDKs
-        url: https://github.com/Azure/azure-sdk-for-python/tree/main/sdk/appservice
+- aid: microsoft-azure-app-service:microsoft-azure-app-service-operations-api
+  name: Microsoft Azure App Service Operations API
+  description: Operations operations
+  humanURL: https://learn.microsoft.com/en-us/rest/api/appservice/
+  baseURL: https://management.azure.com/
+  tags:
+  - Operations
+  properties:
+  - type: OpenAPI
+    url: openapi/microsoft-azure-app-service-operations-api-openapi.yml
+  - type: Documentation
+    url: https://learn.microsoft.com/en-us/rest/api/appservice/
+  - type: APIReference
+    url: https://learn.microsoft.com/en-us/rest/api/appservice/operation-groups
+  - type: Authentication
+    url: >-
+      https://learn.microsoft.com/en-us/azure/app-service/overview-authentication-authorization
+  - type: SDKs
+    url: https://github.com/Azure/azure-sdk-for-python/tree/main/sdk/appservice
+- aid: microsoft-azure-app-service:microsoft-azure-app-service-web-apps-api
+  name: Microsoft Azure App Service Web Apps API
+  description: Web Apps operations
+  humanURL: https://learn.microsoft.com/en-us/rest/api/appservice/
+  baseURL: https://management.azure.com/
+  tags:
+  - Web Apps
+  properties:
+  - type: OpenAPI
+    url: openapi/microsoft-azure-app-service-web-apps-api-openapi.yml
+  - type: Documentation
+    url: https://learn.microsoft.com/en-us/rest/api/appservice/
+  - type: APIReference
+    url: https://learn.microsoft.com/en-us/rest/api/appservice/operation-groups
+  - type: Authentication
+    url: >-
+      https://learn.microsoft.com/en-us/azure/app-service/overview-authentication-authorization
+  - type: SDKs
+    url: https://github.com/Azure/azure-sdk-for-python/tree/main/sdk/appservice
 common:
   - type: AgenticAccess
     url: agentic-access/microsoft-azure-app-service-agentic-access.yml
