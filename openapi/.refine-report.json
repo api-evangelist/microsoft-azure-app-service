@@ -1,0 +1,16 @@
+{
+  "provider": "microsoft-azure-app-service",
+  "sources": [
+    "microsoft-azure-app-service-operations-api-openapi.yml",
+    "microsoft-azure-app-service-web-apps-api-openapi.yml"
+  ],
+  "outputs": [
+    "microsoft-azure-app-service-operations-api-openapi.yml",
+    "microsoft-azure-app-service-web-apps-api-openapi.yml"
+  ],
+  "archived": [],
+  "errors": [],
+  "warnings": [],
+  "notes": [],
+  "skipped": []
+}
