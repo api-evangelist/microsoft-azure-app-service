@@ -24,6 +24,12 @@ tags:
   - App Service
   - Hosting
   - Microsoft Azure
+  - Platform-as-a-Service
+  - Web App
+tags_raw:
+  - App Service
+  - Hosting
+  - Microsoft Azure
   - PaaS
   - Web Apps
 url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-app-service/refs/heads/main/apis.yml
@@ -36,7 +42,8 @@ apis:
   description: Operations operations
   humanURL: https://learn.microsoft.com/en-us/rest/api/appservice/
   baseURL: https://management.azure.com/
-  tags:
+  tags: []
+  tags_raw:
   - Operations
   properties:
   - type: OpenAPI
@@ -56,6 +63,8 @@ apis:
   humanURL: https://learn.microsoft.com/en-us/rest/api/appservice/
   baseURL: https://management.azure.com/
   tags:
+  - Web App
+  tags_raw:
   - Web Apps
   properties:
   - type: OpenAPI
