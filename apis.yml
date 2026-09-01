@@ -36,8 +36,8 @@ tags:
   - App Service
   - Hosting
   - Microsoft Azure
-  - PaaS
-  - Web Apps
+  - Platform-as-a-Service
+  - Web App
 tags_raw:
   - App Service
   - Hosting
@@ -75,7 +75,7 @@ apis:
   humanURL: https://learn.microsoft.com/en-us/rest/api/appservice/
   baseURL: https://management.azure.com/
   tags:
-  - Web Apps
+  - Web App
   tags_raw:
   - Web Apps
   properties:
