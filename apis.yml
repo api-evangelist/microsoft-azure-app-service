@@ -1,5 +1,6 @@
 aid: microsoft-azure-app-service
 name: Microsoft Azure App Service
+x-parent: microsoft-azure
 description: >-
   Microsoft Azure App Service is a fully managed platform-as-a-service (PaaS) for building, deploying, and scaling web
   apps, REST APIs, and mobile backends. It supports multiple languages and frameworks, offers built-in auto-scaling and
@@ -44,7 +45,7 @@ tags_raw:
   - Microsoft Azure
   - PaaS
   - Web Apps
-url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-app-service/refs/heads/main/apis.yml
+url: https://learn.microsoft.com/en-us/azure/app-service/
 created: '2026-03-13'
 modified: '2026-05-19'
 specificationVersion: '0.23'
