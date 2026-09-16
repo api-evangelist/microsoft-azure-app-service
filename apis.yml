@@ -1,11 +1,10 @@
 aid: microsoft-azure-app-service
 name: Microsoft Azure App Service
 x-parent: microsoft-azure
-description: >-
-  Microsoft Azure App Service is a fully managed platform-as-a-service (PaaS) for building, deploying, and scaling web
-  apps, REST APIs, and mobile backends. It supports multiple languages and frameworks, offers built-in auto-scaling and
-  load balancing, and includes integrated authentication, continuous deployment, custom domain, and SSL certificate
-  management.
+description: Microsoft Azure App Service is a fully managed platform-as-a-service (PaaS) for building,
+  deploying, and scaling web apps, REST APIs, and mobile backends. It supports multiple languages and
+  frameworks, offers built-in auto-scaling and load balancing, and includes integrated authentication,
+  continuous deployment, custom domain, and SSL certificate management.
 type: Index
 deliveryModel:
   model: saas
@@ -34,20 +33,20 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/microsoft-azure-app-service.png
 tags:
-  - App Service
-  - Hosting
-  - Microsoft Azure
-  - Platform-as-a-Service
-  - Web App
+- App Service
+- Hosting
+- Microsoft Azure
+- Platform-as-a-Service
+- Web App
 tags_raw:
-  - App Service
-  - Hosting
-  - Microsoft Azure
-  - PaaS
-  - Web Apps
+- App Service
+- Hosting
+- Microsoft Azure
+- PaaS
+- Web Apps
 url: https://learn.microsoft.com/en-us/azure/app-service/
 created: '2026-03-13'
-modified: '2026-05-19'
+modified: '2026-09-16'
 specificationVersion: '0.23'
 apis:
 - aid: microsoft-azure-app-service:microsoft-azure-app-service-operations-api
@@ -66,8 +65,7 @@ apis:
   - type: APIReference
     url: https://learn.microsoft.com/en-us/rest/api/appservice/operation-groups
   - type: Authentication
-    url: >-
-      https://learn.microsoft.com/en-us/azure/app-service/overview-authentication-authorization
+    url: https://learn.microsoft.com/en-us/azure/app-service/overview-authentication-authorization
   - type: SDKs
     url: https://github.com/Azure/azure-sdk-for-python/tree/main/sdk/appservice
 - aid: microsoft-azure-app-service:microsoft-azure-app-service-web-apps-api
@@ -87,37 +85,38 @@ apis:
   - type: APIReference
     url: https://learn.microsoft.com/en-us/rest/api/appservice/operation-groups
   - type: Authentication
-    url: >-
-      https://learn.microsoft.com/en-us/azure/app-service/overview-authentication-authorization
+    url: https://learn.microsoft.com/en-us/azure/app-service/overview-authentication-authorization
   - type: SDKs
     url: https://github.com/Azure/azure-sdk-for-python/tree/main/sdk/appservice
 common:
-  - type: AgenticAccess
-    url: agentic-access/microsoft-azure-app-service-agentic-access.yml
-  - type: DomainSecurity
-    url: security/microsoft-azure-app-service-domain-security.yml
-  - type: Authentication
-    url: authentication/microsoft-azure-app-service-authentication.yml
-  - type: OAuthScopes
-    url: scopes/microsoft-azure-app-service-scopes.yml
-  - type: Portal
-    url: https://portal.azure.com/
-  - type: Documentation
-    url: https://learn.microsoft.com/en-us/azure/app-service/
-  - type: Pricing
-    url: https://azure.microsoft.com/en-us/pricing/
-  - type: TermsOfService
-    url: https://www.microsoft.com/en-us/legal/terms-of-use
-  - type: PrivacyPolicy
-    url: https://privacy.microsoft.com/en-us/privacystatement
-  - type: Support
-    url: https://support.microsoft.com/
-  - type: StatusPage
-    url: https://status.azure.com/
-  - type: GitHubOrganization
-    url: https://github.com/Azure
-  - type: LlmsText
-    url: https://portal.azure.com/llms.txt
+- type: Website
+  url: https://microsoft.com
+- type: AgenticAccess
+  url: agentic-access/microsoft-azure-app-service-agentic-access.yml
+- type: DomainSecurity
+  url: security/microsoft-azure-app-service-domain-security.yml
+- type: Authentication
+  url: authentication/microsoft-azure-app-service-authentication.yml
+- type: OAuthScopes
+  url: scopes/microsoft-azure-app-service-scopes.yml
+- type: Portal
+  url: https://portal.azure.com/
+- type: Documentation
+  url: https://learn.microsoft.com/en-us/azure/app-service/
+- type: Pricing
+  url: https://azure.microsoft.com/en-us/pricing/
+- type: TermsOfService
+  url: https://www.microsoft.com/en-us/legal/terms-of-use
+- type: PrivacyPolicy
+  url: https://privacy.microsoft.com/en-us/privacystatement
+- type: Support
+  url: https://support.microsoft.com/
+- type: StatusPage
+  url: https://status.azure.com/
+- type: GitHubOrganization
+  url: https://github.com/Azure
+- type: LlmsText
+  url: https://portal.azure.com/llms.txt
 maintainers:
-  - FN: Kin Lane
-    email: kin@apievangelist.com
+- FN: Kin Lane
+  email: kin@apievangelist.com
