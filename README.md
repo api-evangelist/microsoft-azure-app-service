@@ -1,4 +1,4 @@
-# Microsoft Azure App Service (microsoft-azure-app-service)
+# Microsoft Azure App Service
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,64 +66,130 @@
 
 Microsoft Azure App Service is a fully managed platform-as-a-service (PaaS) for building, deploying, and scaling web apps, REST APIs, and mobile backends. It supports multiple languages and frameworks, offers built-in auto-scaling and load balancing, and includes integrated authentication, continuous deployment, custom domain, and SSL certificate management.
 
-**APIs.json:** [https://raw.githubusercontent.com/api-evangelist/microsoft-azure-app-service/refs/heads/main/apis.yml](https://raw.githubusercontent.com/api-evangelist/microsoft-azure-app-service/refs/heads/main/apis.yml)
+**Areas:** App Service · Hosting · Microsoft Azure · Platform-as-a-Service · Web App
 
-## Scope
+## Microsoft Azure App Service on APIs.io
 
-- **Type:** Index
+Everything profiled for Microsoft Azure App Service is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/microsoft-azure-app-service/](https://apis.io/providers/microsoft-azure-app-service/)** — or go straight to one of the APIs or properties below.
 
-## Tags
+### APIs (2)
 
-- App Service
-- Hosting
-- Microsoft Azure
-- PaaS
-- Web Apps
+- [Microsoft Azure App Service Operations API](https://apis.io/apis/microsoft-azure-app-service/microsoft-azure-app-service-operations-api/) — Operations operations
+- [Microsoft Azure App Service Web Apps API](https://apis.io/apis/microsoft-azure-app-service/microsoft-azure-app-service-web-apps-api/) — Web Apps operations
 
-## Timestamps
+### Published properties
 
-- **Created:** 2026-03-13
-- **Modified:** 2026-05-19
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## APIs
+#### Agentic access (1)
 
-### Azure App Service API
+Which operations an agent can call, which act, and which need a human in the loop.
 
-The Azure App Service REST API enables programmatic management of web apps, app service plans, deployment slots, custom domains, SSL certificates, and application settings. It supports continuous deployment, auto-scaling, authentication configuration, and hybrid connections through Azure Resource Manager endpoints.
+- [Microsoft Azure App Service Agentic Access](https://apis.io/agentic-access/microsoft-azure-app-service/microsoft-azure-app-service-agentic-access/)
 
-- **Human URL:** [https://learn.microsoft.com/en-us/rest/api/appservice/](https://learn.microsoft.com/en-us/rest/api/appservice/)
-- **Base URL:** `https://management.azure.com/`
+#### Collections (3)
 
-#### Tags
+Postman and Open Collection request collections.
 
-- App Service
-- Hosting
-- PaaS
-- Web Apps
+- [Azure App Service REST API](https://apis.io/collections/microsoft-azure-app-service/open-microsoft-azure-app-service/)
+- [Azure App Service REST Operations API](https://apis.io/collections/microsoft-azure-app-service/open-microsoft-azure-app-service-operations-api/)
+- [Azure App Service REST Operations Web Apps API](https://apis.io/collections/microsoft-azure-app-service/open-microsoft-azure-app-service-web-apps-api/)
 
-#### Properties
+#### Security (2)
 
-- [OpenAPI](openapi/microsoft-azure-app-service-openapi.yml) — [OpenAPI Specification](https://spec.openapis.org/oas/latest.html)
-- [Postman Collection](collections/microsoft-azure-app-service.postman_collection.json) — [Postman Collection 2.1](https://schema.getpostman.com/json/collection/v2.1.0/collection.json)
-- [Open Collection](collections/microsoft-azure-app-service.opencollection.json) — [Open Collection 1.0](https://schema.opencollection.com/opencollection/v1.0.0.json)
-- [Documentation](https://learn.microsoft.com/en-us/rest/api/appservice/)
-- [API Reference](https://learn.microsoft.com/en-us/rest/api/appservice/operation-groups)
-- [Authentication](https://learn.microsoft.com/en-us/azure/app-service/overview-authentication-authorization)
-- [SDK](https://github.com/Azure/azure-sdk-for-python/tree/main/sdk/appservice)
+Authentication, trust centre, and vulnerability disclosure.
 
-## Common Properties
+- [Microsoft Azure App Service Authentication](https://apis.io/security/microsoft-azure-app-service/microsoft-azure-app-service-authentication/)
+- [Microsoft Azure App Service Domain Security](https://apis.io/security/microsoft-azure-app-service/microsoft-azure-app-service-domain-security/)
 
-- [Portal](https://portal.azure.com/)
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Microsoft Azure App Service Scopes](https://apis.io/scopes/microsoft-azure-app-service/microsoft-azure-app-service-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Microsoft Azure App Service Plans Pricing](https://apis.io/plans/microsoft-azure-app-service/microsoft-azure-app-service-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Microsoft Azure App Service Rate Limits](https://apis.io/rate-limits/microsoft-azure-app-service/microsoft-azure-app-service-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Microsoft Azure App Service Finops](https://apis.io/finops/microsoft-azure-app-service/microsoft-azure-app-service-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://microsoft.com)
 - [Documentation](https://learn.microsoft.com/en-us/azure/app-service/)
 - [Pricing](https://azure.microsoft.com/en-us/pricing/)
-- [Terms of Service](https://www.microsoft.com/en-us/legal/terms-of-use)
-- [Privacy Policy](https://privacy.microsoft.com/en-us/privacystatement)
 - [Support](https://support.microsoft.com/)
-- [Status Page](https://status.azure.com/)
-- [GitHub Organization](https://github.com/Azure)
-- [L L Ms Txt](https://portal.azure.com/llms.txt)
+- [Terms of service](https://www.microsoft.com/en-us/legal/terms-of-use)
+- [Privacy policy](https://privacy.microsoft.com/en-us/privacystatement)
+- [GitHub](https://github.com/Azure)
+- [Status](https://status.azure.com/)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
-**Email:** kin@apievangelist.com
+**Kin Score 44.0** — developing · rubric 0.25.0 · scored 2026-10-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 80.4 |
+| Contract quality | 44.1 |
+| Contract governance | 0.0 |
+| Operational transparency | 26.3 |
+| Developer ergonomics | 50.0 |
+| Access clarity | 39.5 |
+
+**Agent readiness 19.6** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | derived (partial credit) |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 29.4** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/microsoft-azure-app-service/](https://apis.io/providers/microsoft-azure-app-service/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Microsoft Azure App Service: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/microsoft-azure-app-service/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
